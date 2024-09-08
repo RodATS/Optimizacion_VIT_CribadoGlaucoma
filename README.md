@@ -3,7 +3,8 @@
 Las redes Vision Transformer (ViT) son eficaces en el procesamiento de imágenes, pero su alto costo computacional limita su uso en entornos con recursos limitados. Esta investigación optimiza la arquitectura ViT para el cribado del glaucoma, ajustando parámetros clave y aplicando CLAHE para mejorar las imágenes. Logramos reducir el tiempo de entrenamiento en un 65% y alcanzar un accuracy del 87.11%, demostrando que la arquitectura optimizada es eficiente y viable para aplicaciones clínicas.
 
 Data set utilizado: https://www.kaggle.com/datasets/sabari50312/fundus-pytorch
-Resultados Preliminares:
+
+<h2>Resultados Preliminares:</h2>
 Para el desarrollo del nuevo modelo ViT personalizado, se ajustaron los hiperparámetros mencionados anteriormente y se probaron diferentes configuraciones para encontrar un diseño más eficiente en términos de costo computacional y rendimiento. Se utilizaron métricas como accuracy, precision, recall, y F1-score para evaluar los desempeños de los modelos.
 
 Los resultados preliminares identificaron una arquitectura ViT optimizada que reduce significativamente los recursos computacionales necesarios sin sacrificar la eficiencia.
